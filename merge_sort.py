@@ -2,11 +2,6 @@
 import math
 
 def merge(a, p, q, r):
-    '''
-    Merge sort (CLRS, pag. 31).
-    Time complexity: O(nlgn)
-    Space complexity: O(n)
-    '''
     n = r + 1
     b = [None] * n    
     i = p
@@ -30,6 +25,11 @@ def merge(a, p, q, r):
 
     
 def merge_sort(a, p, r):
+    '''
+    Merge sort (CLRS, pag. 31).
+    Time complexity: O(nlgn)
+    Space complexity: O(n)
+    '''
     if p < r:
         q = math.floor( (p + r) / 2 )
         merge_sort(a, p, q)
