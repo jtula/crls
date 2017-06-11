@@ -21,6 +21,7 @@
     "*.egg-info/": "explorerExcludedFiles",
     ".installed.cfg": "explorerExcludedFiles",
     "*.egg": "explorerExcludedFiles",
+    ".vscode": "explorerExcludedFiles",
     "*.manifest": "explorerExcludedFiles",
     "*.spec": "explorerExcludedFiles",
     "pip-log.txt": "explorerExcludedFiles",
