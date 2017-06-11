@@ -2,7 +2,7 @@
 
 def insertion_sort(a):
     '''
-    Insertion sort (CLRS - 3ed, pg 18).
+    Insertion sort (CLRS, pag. 18).
     Time complexity: O(n^2)
     Space complexity: O(1)
     '''
@@ -16,7 +16,7 @@ def insertion_sort(a):
 
 
 def main():
-    a = [5, 2, 4, 6, 1, 3]    
+    a = [5, 2, 4, 6, 1, 3]
     print('Array: ', a)
     insertion_sort(a)
     print('Insertion sort: ', a)
