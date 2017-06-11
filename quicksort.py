@@ -1,6 +1,4 @@
 #!/bin/python3
-import math
-
 
 def partition(a, p, r):    
     x = a[r]
